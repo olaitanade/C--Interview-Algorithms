@@ -10,7 +10,7 @@ namespace Algorithms.Models
 			{
 				for (int j = 0; j < str1.Length + 1; j++)
 				{
-					edits[i, j] = j;
+                    edits[i, j] = j;
 				}
 				edits[i, 0] = i;
 			}
